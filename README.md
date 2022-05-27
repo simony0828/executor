@@ -96,7 +96,7 @@ python3 run_executor.py -f <file> [--dry_run] [--unit_test] [--setup] [--steps] 
 > 
 > **--dry_run / -d:**	Print all SQLs without executing in the system
 > 
-> **--unit_test / -u:**	Enable dagta quality check without writing result to table
+> **--unit_test / -u:**	Enable data quality check without writing result to table
 > 
 > **--setup / -s:**	Run create tables only (target and staging)
 > 
