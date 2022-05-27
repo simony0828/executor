@@ -1,5 +1,5 @@
 import argparse
-from lib.executor import Executor
+from ..common.lib.executor import Executor
 
 def parse_args():
     parser = argparse.ArgumentParser(description='ETL framework by reading YAML configuration file')
